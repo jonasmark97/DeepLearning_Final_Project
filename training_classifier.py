@@ -150,7 +150,7 @@ results, model = train(model, optimizer, epochs=epochs, train_loader=train_loade
 
 
 # Save model weights and results
-torch.save(model.state_dict(), "model_loadings.pt")
+torch.save(model.state_dict(), "./Data/model_loadings.pt")
 
 with open("classifier_training_results.json","w") as fp:
     json.dump(results, fp, indent=2)
