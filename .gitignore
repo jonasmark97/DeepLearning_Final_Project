@@ -1,0 +1,6 @@
+Data/images_maiz_multispectral/*
+Data/images_maiz_rgb/*
+Data/blobs_multispectral_labelled_uniform_dist/*
+Data/test_data/*
+
+*.pyc
